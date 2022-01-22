@@ -1,0 +1,164 @@
+<!--чтобы подгружать статические файлы Python-->
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-sale=1.0, user-scalable=0">
+	<!-- Для подключения иконки к сайту -->
+	<!-- <link rel="shortcut icon" href="/pictures/icon/favicon.ico"> -->
+   <link rel="stylesheet" href="/css/grid.css">
+	<title>ONLY_GRID</title>
+</head>
+<body>
+	<!-- Оболочка (grid-контейнер) -->
+	<div class="wrapper">
+		<header class="header">
+			<a href="" class="header__logo"></a>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li>
+						<a href="" class="header__link">Пункт меню</a>
+					</li>
+					<li>
+						<a href="" class="header__link">Пункт меню</a>
+					</li>
+					<li>
+						<a href="" class="header__link">Пункт меню</a>
+					</li>
+					<li>
+						<a href="" class="header__link">Пункт меню</a>
+					</li>
+				</ul>
+				<!-- Добавим имитацию бургера -->
+				<div class="header__burger">
+					<span></span>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Контент (grid-элемент + grid-контейнер) -->
+		<main class="main">
+			<!-- Боковая часть -->
+			<aside class="sidebar">
+				<nav class="sidebar__menu">
+					<ul class="sidebar__list">
+						<li>
+							<a href="" class="sidebar__link">Пункт меню</a>
+						</li>
+						<li>
+							<a href="" class="sidebar__link">Пункт меню</a>
+						</li>
+						<li>
+							<a href="" class="sidebar__link">Пункт меню</a>
+						</li>
+						<li>
+							<a href="" class="sidebar__link">Пункт меню</a>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+			<section class="content">
+				<h1 class="content__title">GRID Layout - Практика</h1>
+				<section class="content__gallery gallery">
+					<h2 class="gallery__title">Галерея</h2>
+					<div class="gallery__items">
+						<div class="gallery__item gallery__item_big">
+							<img src="/only_grid/01.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/02.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/03.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/04.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/05.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/06.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/07.jpg" alt="">
+						</div>
+						<div class="gallery__item gallery__item_big">
+							<img src="/only_grid/08.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/09.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img src="/only_grid/10.jpg" alt="">
+						</div>
+					</div>
+				</section>
+				<section class="content__products products">
+					<h2 class="products__title">Товары</h2>
+					<div class="products__items">
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN", Футболка "Big Cat in TOWN", Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<a href="" class="products__image">
+								<img src="/only_grid/fls.jpg" alt="">
+							</a>
+							<a href="" class="products__name">Футболка "Big Cat in TOWN"</a>
+							<a href="" class="products__button">Купить</a>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__copy">
+				Copy, 2021
+			</div>
+			<div class="footer__text">Lorem ipsum dolor sit amet.</div>
+		</footer>
+	</div>
+
+
+
+
+	<!-- Подключаем jQuery (без неё JS не работает) -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<!-- Подключаем JS -->
+	<script src="/js/script_grid.js"></script>
+</body>
+</html>
